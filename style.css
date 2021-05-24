@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+nav {
+    height: 2em;
+    width: 55%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+.nav {
+    margin-left: 2em;
+}
+
+.subnav {
+    position: relative;
+    top: -1.3em;
+    left: 15em;
+}
+
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin-top: 3em; */
+}
+
+.container {
+    height: 500px;
+    width: 70%;
+    display: flex;
+    justify-content: space-around
+}
+
+.main {
+    flex: 1;
+    /* border: black solid 1px; */
+    display: flex;
+    justify-content: center;
+}
+
+.profile {
+    height: 300px;
+    width: 190px;
+    border: black solid 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1em;
+    padding: .5em;
+}
+
+.aside {
+    flex: 3;
+    /* border: black solid 1px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between
+
+}
+
+.commentBox {
+    height: 150px;
+    width: 400px;
+    border: 2px solid black;
+    /* margin-top: 5em;
+    margin-left: 5em; */
+    display: flex;
+    flex-direction: column;
+}
+.topHalf {
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em;
+}
+
+.bottomHalf {
+    height: 50%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: 1em;
+}
+
+img {
+    height: 100px;
+    position: relative;
+    top: -15px;
+}
+
+.subnav {
+    font-size: 2em;
+}
+
+a {
+    color: blue;
+}
